@@ -1,0 +1,291 @@
+*{
+     padding:0;
+     margin:0;
+     
+}
+body{
+     font-family:serif;
+     background-image:url(istockphoto-1491857076-1024x1024.jpg);
+     background-size:cover;
+     background-repeat:no-repeat ;
+     background-position: center;  
+
+}
+.head-menu{
+    
+     background-color :rgb(14, 150, 14 ,0.5) ;
+     text-align:center;
+    
+}
+
+.menu-bar ul{
+     list-style:none;
+     display:inline-flex;
+  
+  
+}
+ .menu-bar ul li {
+      padding:1.6rem; 
+     margin-left:2rem;
+     text-transform : capitalize;
+     font-size:1.2rem;  
+     
+ }
+.menu-bar ul li a {
+     text-decoration:none;
+     color:rgb(17, 12, 12,1);
+}
+.menu-bar ul li a:active {
+     text-decoration:none;
+     color:rgb(110, 231, 94);
+}
+.sub-menu-1{
+      display:none;
+     
+} 
+
+.menu-bar ul li:hover .sub-menu-1  {
+     position:absolute;
+     display:block;
+    
+     margin-top:1.8rem;
+     margin-left:-2rem;
+    background-color: rgb(14, 150, 14 ,0.7);
+    border-radius:10px;
+}
+/* main bar  */
+ .main-bar {
+     height:150.5px;
+     margin-left:1rem;
+     margin-right:1rem; 
+     margin-top:0.5rem;
+     border-radius:4px;
+     display: flex;
+     justify-content:space-evenly;
+
+     background-color:rgba(210, 243, 210, 0.5);
+ }
+ /* boxess */
+ .box{
+     height:8rem;
+     width:10rem;
+     /* translate:all 0.4 ease-out ; */
+     /* border:2px solid black; */
+ }
+ /* .box:hover{
+     transform:scale(1.5); 
+   } */
+ 
+  /*  tv & app tv imgages */
+.tv-img {
+     background-image:url(tv&app.png);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:1rem;
+     width:5rem;
+     margin-top:1.5rem;
+     margin-left:0.3rem;
+     padding-top:5rem;
+     border-radius:3rem;
+     transition:all 0.4s ease-out;
+      
+}
+   .tv-img:hover{
+     transform:scale(1.2); 
+   }
+ .title-tag  {
+     font-weight: 650;
+     font-size:1.1rem;
+     color:rgb(12, 10, 10);
+     text-decoration: none ;
+  
+    
+}
+/* .title-tag p  {
+      padding-right:1.5rem;
+      
+} */
+.title-tag:hover {
+
+     color:rgb(175, 93, 238);
+
+}
+
+/*  electronic machine */
+.ele-img{
+     background-image:url(ele1.png);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:1rem;
+     width:5rem;
+     margin-top:1.5rem;
+     margin-left:0.3rem;
+     padding-top:5rem;
+     border-radius:3rem;
+     translate:all 0.4 ease-out;
+
+}
+     .ele-img:hover{
+          transform:scale(1.2); 
+        }
+
+/* home & kivhen  */
+.hk-img{
+     background-image:url(home\ &\ kichen.png);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:1rem;
+     width:5rem;
+     margin-top:1.5rem;
+     margin-left:0.3rem;
+     padding-top:5rem;
+     border-radius:3rem;
+     translate:all 0.4 ease-out;
+      
+}
+.hk-img:hover{
+     transform:scale(1.2); 
+   }
+.ml-img{
+     background-image:url(tab\ &\ mobile.png);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:1rem;
+     width:5rem;
+     margin-top:1.5rem;
+     margin-left:0.3rem;
+     padding-top:5rem;
+     border-radius:3rem;
+     translate:all 0.4 ease-out;
+      
+}
+.ml-img:hover{
+     transform:scale(1.2); 
+   }
+.for-img{
+     background-image:url(furniture.png);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:1rem;
+     width:5rem;
+     margin-top:1.5rem;
+     margin-left:0.3rem;
+     padding-top:5rem;
+     border-radius:3rem;
+     translate:all 0.4 ease-out ;
+      
+}
+.for-img:hover{
+     transform:scale(1.2); 
+   }
+.gro-img{
+     background-image:url(grocery.png);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:1rem;
+     width:5rem;
+     margin-top:1.5rem;
+     margin-left:0.3rem;
+     padding-top:5rem;
+     border-radius:3rem;
+     translate:all 0.4 ease-out ;
+      
+}
+.gro-img:hover{
+     transform:scale(1.2); 
+   }
+.fas-img{
+     background-image:url(fashtion.png);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:1rem;
+     width:5rem;
+     margin-top:1.5rem;
+     margin-left:0.3rem;
+     padding-top:5rem;
+     border-radius:3rem;
+     translate:all 0.4 ease-out ;
+      
+}
+.fas-img:hover{
+     transform:scale(1.2); 
+   }
+.b-toy-img{
+     background-image:url(b&toys.png);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:1rem;
+     width:5rem;
+     margin-top:1.5rem;
+     margin-left:0.3rem;
+     padding-top:5rem;
+     border-radius:3rem;
+     translate:all 0.4 ease-out ;
+      
+}
+.b-toy-img:hover{
+     transform:scale(1.2); 
+   }
+.scroll{
+     width:100% Auto;
+     margin:2% auto  ;
+     border:solid 1px black;
+     display:flex;
+  
+}
+.group{
+     display:flex;
+     justify-content:space-between;
+     text-align:center;
+     gap:1em;
+     padding:0.6em;
+     animation: cards 7.5s ease-in  infinite ;
+ 
+
+}
+@keyframes cards{
+     from{translate:0%;}
+     to {translate:-100%;}
+
+}            
+
+.card{
+     width:22rem;
+     height:12em;
+     background-color:rgba(41, 6, 123, 0.599);
+     border:2px lightcoral solid;
+     padding:2em;
+     align-content:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

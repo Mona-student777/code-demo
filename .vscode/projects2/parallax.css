@@ -1,0 +1,92 @@
+*{
+     margin:0;
+     padding:0;
+     font-family: cursive;
+
+}
+body{
+     font-family: 'Courier New', Courier, monospace;
+     /* background-image:linear-gradient(to left,rgb(135, 123, 132),rgb(75, 233, 101)); */
+     background-color:rgba(62, 56, 56, 0.9);
+}
+
+
+ .nature{
+     background-image:url(naturre.jpg);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:50rem;
+     background-position:center;
+     background-attachment:fixed;
+     padding-top:20.5rem;
+
+ }
+ .nature-deff{
+     text-align:center;
+     color:white;
+     padding:8rem;
+     height:10rem;
+     font-size:2rem;
+     background-image:linear-gradient(#96d3da55,rgba(178, 178, 224, 0.269)) ;
+ }
+ .nature h1{
+     text-align:center;
+     font-size:15vh;
+     background-image:linear-gradient(#96d3da55,rgba(178, 178, 224, 0.269)) ;
+     height:35vh;
+     padding-top:14rem;
+     color:rgb(74, 96, 96);
+
+
+ }
+ .forest-img{
+     background-image:url(forest\ bg.jpg);
+     height:40vh;
+     background-repeat:no-repeat;
+     background-size:cover;
+     padding-top:20rem;
+     background-position:center;
+     background-attachment:fixed;
+
+ }
+  .forest-deff{
+  height:23rem;
+   padding-top:2.5rem;
+     font-size:2rem;
+   text-align:center;
+   color:white;
+ font-family:cursive;
+  }
+  .climate-img{
+   background-image:url(climate.jpeg);
+   background-size:cover;
+   height:45rem;
+   background-position:center;
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+  } 
+  .climate-deff{
+     font-size:2rem;
+     padding-top:5rem;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color:white;
+     /* background-image:linear-gradient(#96d3da55,rgba(34, 172, 57, 0.269)) ; */
+     height:15rem;
+     text-align:center;
+  }
+.beach{
+     background-image:url(beaches.jpg);
+     background-size:cover;
+     background-repeat:no-repeat;
+     background-position:center;
+     background-attachment: fixed ;
+     height:60vh;
+}
+.laptop{
+  background-image:url(photo-1517336714731-489689fd1ca8.jpeg);
+  background-repeat: no-repeat;
+background-position: center;
+background-attachment:fixed;
+height:20vh;
+
+}

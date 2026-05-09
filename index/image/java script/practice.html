@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body >
+     <button 
+     onclick="
+        prompt('good morning!');
+    "> hello world!. </button> 
+      <header>
+         <p class="font-size:2rem"> Adults plain cotton T-shirt</p>
+         <p> Price:$7.99 </p> 
+          
+    <button oncllick="
+        console.log(`cart quantity:${cartquantity}`);
+      ">show cart</button>
+
+      <button onclick="
+      cartquantity = cartquantity +1;
+      console.log(  `cart quantity :${  cartquantity}`);
+      ">add to cart</button>
+
+      <button onclick="
+      console.log(`Cart quantity: ${cartQuantity}`);
+     ">Show Quantity</button>
+
+     <button onclick="
+      cartQuantity= cartQuantity+1;
+      console.log(`Cart quantity: ${cartQuantity}`);
+      ">Add to Cart</button>
+       <button
+      onclick="
+       const randomnumber = math.random();
+        let computermove= '';
+
+       if (randomnumber >=0 &&randomnumber <=1/3){
+         computermove = 'rock'; 
+       }else if (randomnumber >=1/3 &&randomnumber <=2/3){
+        computermove ='paper';
+       }else if (randomnuber >=2/3 &&randomnumber <=1){
+         computermove ='scissors';
+       }
+       console.log( computermove);
+          
+        let result  ='';
+         if ( computermove === 'rock'){
+          result='tie';
+         }else if (computermove === 'paper'){
+          result ='you lose ';
+         }else if (computermove === 'sicssors'){
+          result='you win ';
+         }
+          alert(`you pikked rock. computer pikked. &{computermove}. &{result}`);
+         ">rock</button>
+         <!-- <button 
+          onclick="
+         const randoumnumber = math.random();
+         let _computermove ='';
+         if (randomnuber >=0 &&randomnuber <=1/3){
+            _computermove='rock';
+         }else if(radoumnmber >=1/3 && randoumnumber <=2/3) {
+           _computermove ='paper';
+         }else if (randoumnumber >=2/3 && randumnumber <=1){
+          _computermove ='scissors';
+         }
+         console.log('_computermove', _computermove);
+
+           let _result='';
+         if ( computermove === rock){
+          _result='you win';
+         }else if (computermove === paper){
+          _result ='tie ';
+         }else if (computermove === sicssors){
+          _result='you lose ';
+         }
+          alert(`you pikked paper.  computer pikked. &{computermove} &{_result}`);
+
+        ">paper</button>
+        <button onclick="
+         const randomnuber =math.random();
+          computermove='';
+          if ( randomnumber >=0 &&randomnuber <=1/3){
+            computermove ='rock';
+          }else if (randomnumber >=1/3 && randomnumber <=2/3){
+           computermove='paper';
+          }else if (randomnumber >=2/3 && randomnumber <=1){
+           computermove ='sicssors';
+
+          }
+          consolee.log(computermove);
+
+          result='';
+          if (computermove === rock ){
+            result='you win';
+          }else if (computermove === paper ){
+            result ='you lose';
+          }else if (computermove === sicssors){
+            result ='tie'
+          }
+          alert(`you pikked sicssos.computer pikked );
+          ">sicssor</buttom>
+       --> 
+          <br>
+      <br>
+       <label>name:</label>
+       <input type="text" id="focus" placeholder="name">
+       
+ <script src="practice.js"></script>  
+   
+</body>
+
+
+  </html>

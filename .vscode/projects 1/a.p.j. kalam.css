@@ -1,0 +1,168 @@
+body{
+     background-image:linear-gradient(to left,rgb(150, 232, 224),rgb(183, 240, 192));
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-left:22.5rem;
+}
+.contaner{
+     border:5px solid grey;
+     height:90rem;
+     width:70rem;
+     background-image:linear-gradient(to right,#a9d9e9,rgb(188, 182, 182));
+     color:black;
+    
+
+}
+.kalam{
+     background-image:url(kalam.jpeg);
+     background-size:cover;
+     background-repeat:no-repeat;
+     height:20.5rem;
+     width:25.8rem;
+     border-radius:90%;
+     padding:2rem 2rem;
+}
+   .contain{
+     display:flex;
+     padding:2rem 2rem;
+   }
+   .detail{
+     padding-top:8rem;
+     padding-left:5.8rem;
+      
+    } 
+    .detail h1{
+     font-size:2.8rem;
+     padding-top:4rem;
+     
+    }
+    .detail p{
+     float:right;
+     font-size:1.5rem;
+     
+    }
+    .head{
+     padding-top:1.2rem;
+     padding-left:3rem;
+
+     font-size:1.5rem;
+    }
+    .pera{
+     padding-left:3rem;
+     font-size:1.3rem;
+     line-height:1.4;
+    }
+    .tooltip{
+     display: inline-block;
+     position:relative;
+     color:purple;
+     border-bottom:2px solid black;
+    }
+   .tooltip .tooltiptext{
+       position:absolute;
+       height:19.8rem;
+       width:23rem;
+       border-radius:4%;
+       background-color:black;
+       color:white;
+       display:block;
+       visibility:hidden;
+    }
+    .arespace-img{
+     background-image:url(arespace.webp);
+     background-size:cover;
+     background-repeat:no-repeat;
+     border-top-right-radius: 4%;
+     border-top-left-radius:4%;
+     height:10rem;
+     width:23rem;
+    }
+.tooltip:hover .tooltiptext{
+     visibility: visible; 
+}
+.tooltip-rs{
+     display: inline-block;
+     position:relative;
+     color:purple;
+     /* border-bottom:2px solid black; */
+    }
+   .tooltip-rs .tooltiptext-rs{
+       position:absolute;
+       height:27rem;
+       width:26rem;
+       border-radius:4%;
+       background-color:black;
+       color:white;
+       display:block;
+       visibility:hidden;
+      
+    }
+    .rs-img{
+     background-image:url(rameshavarm.png);
+     background-size:cover;
+     background-repeat:no-repeat;
+     border-top-right-radius: 4%;
+     border-top-left-radius:4%;
+     height:12rem;
+     width:26rem;
+    }
+.tooltip-rs:hover .tooltiptext-rs{
+     visibility: visible; 
+}
+.born{
+     padding-top: 1.2rem;
+     padding-left:3rem;   
+     font-size:1.3rem;
+     line-height:1.5;
+    }
+    .tooltip-tm{
+     display: inline-block;
+     position:relative;
+     color:purple;
+  
+    }
+   .tooltip-tm .tooltiptext-tm{
+       position:absolute;
+       height:27rem;
+       width:26.5rem;
+       
+       border-radius:4%;
+       background-color:black;
+       color:white;
+       display:block;
+       visibility:hidden;
+    }
+    .tm-img{
+     background-image:url(tamil\ nadu.webp);
+     background-size:cover;
+     background-repeat:no-repeat;
+     border-top-right-radius: 4%;
+     border-top-left-radius:4%;
+     height:12rem;
+     width:26.5rem;
+    }
+.tooltip-tm:hover .tooltiptext-tm{
+     visibility: visible; 
+}
+  .detail{
+     padding-top:0.8rem;
+     line-height :2.3rem;
+     font-size:1.3rem;
+     
+}
+.DOB h1{
+     padding-left:3rem;
+     padding-top :1.5rem;
+     font-size: 3rem;
+
+}
+.footer{
+     float:right;
+     font-size:1.4rem;
+    padding-top :2rem;
+    padding-right:3rem;
+
+}
+.footer a {
+     text-decoration:none;
+     color:rgb(34, 34, 230);
+}

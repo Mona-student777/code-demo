@@ -1,0 +1,51 @@
+.cantainer-form{
+     display:inline-block;
+     height:55rem;
+     width:45rem;
+     border:10px solid gray ;
+     border-radius:5em;
+     border-top-color:rgb(135, 206, 222);
+     position:relative;
+     animation:role 2s linear infinite;
+
+}
+@keyframes role{
+     from{rotate:(45deg);}
+     to{rotate:(90deg);}
+}
+.cantainer{
+     text-align:center;
+     margin:auto;
+     padding-top:3rem;
+     
+}
+.cantainer-form h2{
+     font-size:3rem;
+     text-align:center;
+     padding-bottom:0.4em;
+}
+.input-name{
+    padding-top:1rem;
+    width:100%;
+    position:relative;
+     margin:38px auto;
+     font-size:1.8rem;
+
+}
+.name{
+   color:green;
+   width:15rem;
+   height:1.8rem;
+   font-size:1.3rem;
+   padding-left:2.5rem;
+}
+ .lock{
+     font-size:1.3rem;
+     color:rgb(29, 23, 23);
+     padding:0.5em;
+}
+.input-name i{
+     position:absolute;
+     font-size:1.2rem;
+  
+}
